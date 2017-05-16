@@ -56,7 +56,7 @@ A[1][1] = 0.6
 # P(WALKING | RAINNY) = 0.1, P(OSHOPPING1 | RAINNY) = 0.4, P(CLEANING | RAINNY) = 0.5
 # P(WALKING | SUNNY)  = 0.6, P(SHOPPING | SUNNY)    = 0.3, P(CLEANING | SUNNY)  = 0.1
 #################################################################################
-B = np.zeros(shape=(SIZE_STATE, SIZE_OBSERVATION))
+B = np.zeros(shape=(SIZE_STATE, SIZE_OBSERVATION), dtype=np.float)
 B[0][0] = 0.1
 B[0][1] = 0.4
 B[0][2] = 0.5
@@ -151,7 +151,6 @@ print ('QUERY => %s' % (str(observation_seq)))
 print ()
 
 (sate_seq, trans_mat) = viterbi(observation_seq)
-
 print ('Transition matrix')
 print (trans_mat)
 print ()
