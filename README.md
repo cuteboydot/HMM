@@ -1,5 +1,5 @@
 # HMM
-implementation of Hidden Markov Model (Forward &amp; Viterbi)  
+Implementation of Hidden Markov Model (Forward &amp; Viterbi)  
 cuteboydot@gmail.com
 
 reference : http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788970859040  
