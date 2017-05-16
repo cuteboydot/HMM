@@ -17,6 +17,7 @@ reference : http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788970
 <img src="https://github.com/cuteboydot/HMM/blob/master/img/foward.png" />
 <img src="https://github.com/cuteboydot/HMM/blob/master/img/fowardtest.png" />
 </br>  
+  
 > ## test2 : viterbi  
 ### If observasion sequence = [Walking, Walking, Cleaning, Shopping]  
 ### Then state sequence = [?, ?, ?, ?]
