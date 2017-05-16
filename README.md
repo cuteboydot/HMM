@@ -1,5 +1,5 @@
 # HMM
-implementation of Hidden Markov Model (Forward &amp; Viterbi)
+implementation of Hidden Markov Model (Forward &amp; Viterbi)  
 cuteboydot@gmail.com
 
 reference : http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788970859040  
@@ -16,7 +16,7 @@ reference : http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788970
 <br>
 <img src="https://github.com/cuteboydot/HMM/blob/master/img/foward.png" />
 <img src="https://github.com/cuteboydot/HMM/blob/master/img/fowardtest.png" />
-</br>
+</br>  
 > ## test2 : viterbi  
 ### If observasion sequence = [Walking, Walking, Cleaning, Shopping]  
 ### Then state sequence = [?, ?, ?, ?]
