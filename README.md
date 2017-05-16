@@ -42,8 +42,8 @@ SIZE_OBSERVATION = 3
 
 #################################################################################
 # TRANSITION PROBABILITY OF STATE
-# P(S0|S0) = 0.7, P(S1|S0) = 0.3
-# P(S1|S1) = 0.6, P(S0|S1) = 0.4
+# P(RAINNY | RAINNY) = 0.7, P(SUNNY | RAINNY) = 0.3
+# P(SUNNY | SUNNY)   = 0.6, P(RAINNY | SUNNY) = 0.4
 #################################################################################
 A = np.zeros(shape=(SIZE_STATE, SIZE_STATE), dtype=np.float)
 A[0][0] = 0.7
